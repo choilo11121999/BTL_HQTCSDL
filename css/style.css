@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+    color: #333;
+}
+
+#header {
+    background-color: white;
+    padding: 10px;
+}
+
+.kv-ntd {
+    float: left;
+    margin-top: 7px;
+    font-size: 20px;
+}
+.kv-ntd a{
+    padding: 5px;
+    color: #333;
+    text-decoration: none;
+}
+.kv-ntd select {
+    font-size: 17px;
+}
+.kv-ntd a:hover{
+    color: green;
+}
+.kv-ntd select:hover{
+    border: 2px solid green;
+}
+
+.logo-center {
+    margin-left: 40%;
+    font-size: 30px;
+}
+.dn-dk {
+    float: right;
+    margin-top: -25px;
+}
+#dn{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px;
+    background-color: green;
+    color: white;
+}
+.dn-dk a{
+    padding: 5px;
+    color: #333;
+    text-decoration: none;
+}
+.dn-dk #dx {
+    margin-left: 15px;
+
+}
+.dn-dk #dn:hover {
+    color: green;
+    background-color: white;
+    border: 1px solid green;
+}
+.dn-dk #dk:hover {
+    text-decoration: underline;
+}
+.dn-dk #dx:hover {
+    color: green;
+}
+
+/*==Noi dung==*/
+.khungnoidung {
+    background-color: #D3D3D3;
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+}
+/* ==Tuyển gấp== */
+.ndtrai {
+    margin-left: 100px;
+}
+.ndtrai .khungtuyengap{
+    /* position: relative; */
+    width: 640px;
+    height: 900px;
+    background-color: white;
+    color: black;
+}
+.menutuyengap ul li{
+    display: inline-block;
+    padding: 15px;
+    color: green;
+}
+.menutuyengap ul li:first-child{
+    width: 240px;
+}
+.tuyengap h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: black;
+}
+.ndtuyengap li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 15px;
+}
+.ndtuyengap li:first-child {
+    width: 240px;
+}
+.ndtuyengap a {
+    color: #333;
+    text-decoration: none;
+}
+.ndtuyengap a:hover {
+    color: green;
+}
+/* ==Việc làm theo ngành nghề== */
+
+.vieclamnganh h2 {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.ndvieclamnganh {
+    width: 640px;
+    height: 350px;
+    background-color: white;
+    color: black;
+}
+.ndvieclamnganh ul {
+    display: inline-block;
+    padding: 30px;
+}
+.ndvieclamnganh ul li {
+    padding-top: 10px;
+}
+.ndvieclamnganh ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.ndvieclamnganh ul li a:hover {
+    color: green;
+}
+
+/* ==Việc làm mới nhất== */
+
+.viecmoi h2 {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: black;
+}
+.ndviecmoi {
+    width: 640px;
+    height: 700px;
+    background-color: white;
+    color: black;
+}
+.ndviecmoi div {
+    padding: 10px;
+}
+ .ndviecmoi div ul li {
+     display: inline-block;
+     padding-left: 100px;
+     padding-right: 30px;
+ }
+ .cv a {
+     text-decoration: none;
+     color: #333;
+     font-size: 18px;
+     font-weight: bold;
+ }
+ .cv a:hover {
+     color: green;
+ }
+ .cv {
+     margin-left: 30px;
+     margin-right: 30px;
+ }
+
+/* ==Nội dung phải== */
+.ndphai {
+    width: 340px;
+    height: 3000px;
+    margin-left: 700px;
+    margin-top: -2180px;
+}
+.viechapdan h2 {
+    font-size: 20px;
+   background-color: #33CC00;
+    color: white;
+    width: 320px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+.ndviechapdan {
+    height: 250px;
+    background-color: white;
+    padding: 15px;
+}
+.ndviechapdan div {
+    padding: 5px;
+}
+
+.ndviechapdan div ul li {
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 13px;
+}
+.ndviechapdan div a {
+    text-decoration: none;
+    color: #333;
+}
+.ndviechapdan div a:hover {
+    color: green;
+}
+
+/* ==Tìm kiếm việc làm== */
+.timviec h2 {
+    font-size: 20px;
+    background-color: #33CC00;
+     color: white;
+     width: 320px;
+     text-align: center;
+     padding: 10px;
+     border-radius: 5px 5px 0px 0px;
+     margin-top: 50px;
+}
+.ndtimviec {
+    height: 250px;
+    background-color: white;
+    padding: 20px;
+}
+.ndtimviec div {
+    padding: 10px;
+}
+.ndtimviec div input, .ndtimviec div select {
+    width: 100%;
+    height: 40px;
+    position: relative;
+}
+#timkiem {
+    background-color: #FF9900;
+    border: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#timkiem:hover {
+    background-color: #FF6600;
+}
+
+/* ==Việc hot== */
+.viechot h2 {
+    font-size: 20px;
+   background-color: #33CC00;
+    color: white;
+    width: 320px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+    margin-top: 50px;
+}
+.ndviechot{
+    height: 900px;
+    background-color: white;
+    padding: 15px;
+}
+.ndviechot div {
+    padding: 5px;
+}
+
+.ndviechot div ul li {
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 13px;
+}
+.ndviechot div a {
+    text-decoration: none;
+    color: #333;
+}
+.ndviechot div a:hover {
+    color: green;
+}
+
+/* ==Tìm việc theo tỉnh thành== */
+.viectheotinh h2{
+font-size: 20px;
+   background-color: #33CC00;
+    color: white;
+    width: 320px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+    margin-top: 50px;
+}
+.ndviectheotinh{
+    height: 360px;
+    background-color: white;
+}
+
+ .ndviectheotinh a {
+     text-decoration: none;
+     color: #333;
+     font-size: 15px;
+ }
+ .ndviectheotinh a:hover {
+     text-decoration: underline;
+ }
+
+.ndviectheotinh ul li {
+    list-style-type: none;
+    padding: 6px;
+    margin-left: 50px;
+}
+
+#tim {
+    position: absolute;
+    margin-left: 230px;
+    margin-top: -350px;
+    width: 900px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+}

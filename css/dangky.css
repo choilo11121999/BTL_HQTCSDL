@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+#header {
+    background-color:white;
+    padding: 10px;
+}
+#dn{
+    float: right;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px;
+    background-color: green;
+    color: white;
+}
+#dn:hover {
+    color: green;
+    background-color: white;
+    border: 1px solid green;
+}
+.logo-center {
+    margin-left: 43%;
+    font-size: 30px;
+}
+
+.khungdk {
+    background-color: darkgray;
+    padding: 10px;
+    height: 500px;
+    width: 600px;
+    margin-left: 374px;
+    margin-top: 30px;
+    position: relative;
+}
+#txtdk {
+    font-size: 27px;
+    text-align: center;
+    color: black;
+    margin-top: -10px;
+}
+.khungdk div {
+    padding: 30px;
+}
+.khungdk div input {
+    float: right;
+    height: 30px;
+    width: 350px;
+    margin-top: -70px;
+}
+.khungdk div label {
+    float: right;
+    margin-right: 400px;
+    margin-top: -60px;
+}
+#dieukhoan {
+    margin-top: -60px;
+    font-size: 13px;
+}
+#btdangky {
+    margin-top: -35px;
+    text-align: center;
+}
+#btdangky button {
+    font-size: 20px;
+    padding: 10px;
+    background-color: forestgreen;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+#btdangky button:hover {
+    background-color: green;
+    cursor: pointer;
+}
