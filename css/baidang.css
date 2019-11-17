@@ -15,6 +15,7 @@ body {
 .logo-center {
     margin-left: 40%;
     font-size: 30px;
+    margin-top: -30px;
 }
 .dn-dk {
     float: right;
@@ -47,7 +48,17 @@ body {
 .dn-dk #dx:hover {
     color: green;
 }
+#dangtuyen {
+    color: white;
+    background-color: green;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.dangtuyen {
+    margin-top: 10px;
 
+}
 
 .khungviecquantam{
     position: relative;
@@ -86,4 +97,13 @@ body {
 .ndviecquantam a:hover {
     color: green;
     text-decoration: underline;
+}
+#xoabai {
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgba(173, 20, 20, 0.733);
+    border: none;
+}
+#xoabai:hover {
+    background-color: red;
 }

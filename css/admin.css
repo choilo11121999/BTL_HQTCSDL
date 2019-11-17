@@ -313,3 +313,12 @@ body {
     text-align: center;
     margin-bottom: 10px;
 }
+#xoabai {
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgba(173, 20, 20, 0.733);
+    border: none;
+}
+#xoabai:hover {
+    background-color: red;
+}

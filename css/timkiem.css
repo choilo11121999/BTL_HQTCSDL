@@ -15,6 +15,7 @@ body {
 .logo-center {
     margin-left: 40%;
     font-size: 30px;
+    /* margin-top: -30px; */
 }
 .dn-dk {
     float: right;
@@ -48,8 +49,44 @@ body {
     color: green;
 }
 
+#timkiem {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+ #timkiem select {
+    width: 150px;
+    height: 30px;
+    cursor:  pointer;
+}
+#txtsearch {
+    width: 250px;
+    height: 30px;
+    margin-left: 55px;
+}
+#btsearch {
+    width: 90px;
+    height: 30px;
+    background-color: #33CC00;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#txtsearch, #timkiem select, #btsearch {
+    border-radius: 2px;
+}
+#txtsearch:hover, #timkiem select:hover {
+    border: solid 2px green;
+}
+#btsearch:hover {
+    background-color: green;
+}
 
-.khungviecquantam{
+
+.khungtimkiem{
     position: relative;
     height: 100%;
     background-color: gainsboro ;
@@ -58,7 +95,7 @@ body {
     margin-top: 30px;
     padding: 10px;
 }
-.menuviecquantam ul li{
+.menutimkiem ul li{
     display: inline-block;
     padding-top: 10px;
     padding-left: 70px;
@@ -66,24 +103,27 @@ body {
     font-size: 15px;
     font-weight: bold;
 }
-.menuviecquantam ul li:first-child{
+.menutimkiem ul li:first-child{
     width: 300px;
 }
-.ndviecquantam li {
+.ndtimkiem li {
     display: inline-block;
     padding-top: 10px;
     padding-left: 70px;
     font-size: 15px;
 }
-.ndviecquantam li:first-child {
+.ndtimkiem li:first-child {
     width: 300px;
 }
-.ndviecquantam a {
+.ndtimkiem a {
     color: #333;
     text-decoration: none;
     font-size: 17px;
 }
-.ndviecquantam a:hover {
+.ndtimkiem a:hover {
     color: green;
     text-decoration: underline;
+}
+#quantam{
+    cursor: pointer;
 }

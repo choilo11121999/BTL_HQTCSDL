@@ -1,100 +1,115 @@
 <!DOCTYPE html>
 <html>
-<head>
+    <head>
     <title>Tuyển dụng</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/tuyendung.css">
     <link rel="stylesheet" type="text/css" href="css/fontawesome-free-5.11.2-web/css/all.min.css"> 
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1.0, user-scalable=no" name="viewport">
-</head>
-<body>
-	<div id="header">
-        <div class="kv-ntd">
-            <i class="fas fa-location-arrow"></i>
-            <select name="location">
-                <option value="1" selected>Miền Bắc</option>
-                <option value="2">Miền Nam</option>
-            </select>
-            <a href="#">
-                <i class="fas fa-hand-holding-usd"></i>
-                Nhà tuyển dụng
-            </a>
-            <a href="#">Việc quan tâm</a>
-        </div> 
-
-        <div class="logo-center" title="Trang chủ">
-            <a href="index.html" style="color: #333; text-decoration: none;">
-                <i class="fab fa-wordpress-simple"></i>
-                Tìm Việc Làm
-            </a> 
+    </head>
+    <body>
+        <div id="header">
+            <div class="baidang">
+                <a id="baidang" href="baidang.html">Bài đã đăng</a>
+            </div>
+            <div class="logo-center" title="Trang chủ">
+                <a href="index.html" style="color: #333; text-decoration: none;">
+                    <i class="fab fa-wordpress-simple"></i>
+                    Tìm Việc Làm
+                </a> 
+            </div>
+            <div class="dn-dk">
+                <a href="dangky.html" id="dk">Đăng ký</a>
+                <a href="dangnhap.html" id="dn">
+                    <span><i class="far fa-user"></i>  Đăng nhập</span>
+                </a>
+                <a href="dangnhap.html"  id="dx" title="Đăng xuất">
+                    <i class="fas fa-sign-out-alt"></i>
+                </a>
+            </div>
         </div>
-
-        <div class="dn-dk">
-            <a href="dangky.html" id="dk">Đăng ký</a>
-            <a href="dangnhap.html" id="dn">
-                <span><i class="far fa-user"></i>  Đăng nhập</span>
-            </a>
-            <a href="dangnhap.html"  id="dx" title="Đăng xuất">
-                <i class="fas fa-sign-out-alt"></i>
-            </a>
+        
+        <div class="main">
+            <div id="khuvuctuyendung">
+                <label>Khu vực tuyển dụng</label>
+                <select name="location">
+                    <option value="1" selected>Miền Bắc</option>
+                    <option value="2">Miền Trung</option>
+                    <option value="3">Miền Nam</option>
+                </select>
+            </div>
+            <div id="nganhtuyendung">
+                <label>Ngành tuyển dụng </label>
+                <select name="nganhnghe" id="">
+                    <option value="">Chọn ngành nghề</option>
+                    <option value="">Kinh doanh</option>
+                    <option value="">Chăm sóc khách hàng</option>
+                    <option value="">Sinh viên/Mới tốt nghiệp/Thực tập</option>
+                    <option value="">Lao động phổ thông</option>
+                    <option value="">Hành chính/Thư ký/Trợ lý</option>
+                    <option value="">Tài chính/Kế toán/Kiểm toán</option>
+                    <option value="">Quảng cáo/Marketing/PR</option>
+                    <option value="">Bất động sản</option>
+                    <option value="">Du lịch/Nhà hàng/Khách sạn</option>
+                    <option value="">Cơ khí/Kĩ thuật ứng dụng</option>
+                    <option value="">Công nghệ thông tin</option>
+                    <option value="">Điện/Điện tử/Điện lạnh</option>
+                    <option value="">Nhân sự</option>
+                    <option value="">Xây dựng</option>
+                    <option value="">Bảo vệ/Vệ sĩ/An ninh</option>
+                    <option value="">Ngân hàng/Chứng khoán/Đầu tư</option>
+                    <option value="">Kho vận/Vật tư/Thu mua</option>
+                    <option value="">Thời vụ/Bán thời gian</option>
+                    <option value="">Dược/Hóa chất/Sinh hóa</option>
+                </select>
+            </div>
+            <div id="vitrituyendung">
+                <label>Vị trí tuyển dụng</label>
+                <input type="text" placeholder="Nhập vị trí tuyển dụng">
+            </div>
+            <div id="nhatuyendung">
+                <label>Nhà tuyển dụng</label>
+                <textarea placeholder="Giới thiệu nhà tuyển dụng"></textarea>
+            </div>
+            <div id="soluong">
+                <label>Số lượng cần tuyển</label>
+                <input type="number">
+            </div>
+            <div id="motacongviec">
+                <label>Mô tả công viêc</label>
+                <textarea placeholder="Mô tả về công việc"></textarea>
+            </div>
+            <div id="yeucau">
+                <label>Yêu cầu công việc</label>
+                <textarea placeholder="Mô tả yêu cầu công việc"></textarea>
+            </div>
+            <div id="quyenloi">
+                <label>Quyền lợi</label>
+                <textarea placeholder=""></textarea>
+            </div>
+            <div id="Lương">
+                <label>Lương</label>
+                <input type="text" placeholder="Nhập lương">
+            </div>
+            <div id="hannophoso">
+                <label>Hạn nộp hồ sơ</label>
+                <input  type="date">
+            </div>
+            <div id="diadiem">
+                <label>Địa điểm nộp hồ sơ</label>
+                <input type="text" placeholder="Nhập địa điểm nộp hồ sơ">
+            </div>
+            <div id="email">
+                <label for="">Email</label>
+                <input type="email">
+            </div>
+            <div id="sdt">
+                <label for="">Số điện thoại</label>
+                <input type="tel">
+            </div>
+            <div >
+                <input id="submit" type="submit" value="Đăng tuyển">
+            </div>
         </div>
-    </div>
-    <div class="main">
-        <div>
-            <h3>Giới thiệu nhà tuyển dụng</h3>
-            <textarea></textarea>
-        </div>
-        <div>
-            <h3>Vị trí tuyển dụng</h3>
-            <textarea></textarea>
-        </div>
-        <div>
-            <h3>Số lượng</h3>
-            <textarea></textarea>
-        </div>
-        <div>
-            <h3>Mô tả công việc</h3>
-            <textarea></textarea>
-        </div>
-        <div>
-            <h3>Yêu cầu</h3>
-            <textarea></textarea>
-        </div>
-        <div>
-            <h3>Quyền lợi</h3>
-            <textarea></textarea>
-        </div>
-        <div>
-            <h3>Thời gian làm việc</h3>
-            <textarea></textarea>
-        </div>
-        <div>
-            <h3>Lương</h3>
-            <textarea></textarea>
-        </div>
-        <div>
-            <h3>Hồ sơ</h3>
-            <textarea></textarea>
-        </div>
-        <div>
-            <h3>Hạn nộp hồ sơ</h3>
-            <textarea></textarea>
-        </div>
-        <div>
-            <h3>Địa chỉ</h3>
-            <textarea></textarea>
-        </div>
-        <div>
-            <h3>Liên hệ</h3>
-            <label>Số điện thoại</label>
-            <input type="tel">
-            <label>Email</label>
-            <input type="email">
-        </div>
-        <div>
-            <a href="index.html"><button type="submit">Hủy bỏ</button></a>
-            <button type="submit">Đăng tuyển</button>
-        </div>
-    </div>
-</body>
+    </body>
 </html>

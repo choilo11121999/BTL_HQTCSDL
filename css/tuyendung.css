@@ -12,33 +12,14 @@ body {
     padding: 10px;
 }
 
-.kv-ntd {
-    float: left;
-    margin-top: 7px;
-    font-size: 20px;
-}
-.kv-ntd a{
-    padding: 5px;
-    color: #333;
-    text-decoration: none;
-}
-.kv-ntd select {
-    font-size: 17px;
-}
-.kv-ntd a:hover{
-    color: green;
-}
-.kv-ntd select:hover{
-    border: 2px solid green;
-}
-
 .logo-center {
     margin-left: 40%;
     font-size: 30px;
+    margin-top: -30px;
 }
 .dn-dk {
     float: right;
-    margin-top: -25px;
+    margin-top: -35px;
 }
 #dn{
     font-size: 20px;
@@ -67,52 +48,63 @@ body {
 .dn-dk #dx:hover {
     color: green;
 }
+#baidang {
+    color: white;
+    background-color: green;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.baidang {
+    margin-top: 10px;
+
+}
 
 /*==main==*/
 .main {
-    width: 80%;
+    width: 60%;
     height: 100%;
-    background-color: grey;
+    background-color: gainsboro;
     padding: 20px;
     position: relative;
-    margin-left: 10%;
+    margin-left: 20%;
 }
 .main div {
-    text-align: center;
+    padding: 10px;
 }
-h3 {
-    color: green;
-    font-size: 30px;
+select {
+    width: 400px;
+    height: 30px;
 }
 textarea {
-    width: 80%;
-    height: 200px;
-    margin-top: 15px;
+    width: 70%;
+    height: 100px;
     border: 1px solid black;
     border-radius: 5px;
-    font-size: 17px;
+    font-size: 15px;
 }
 input {
     height: 30px;
-    width: 300px;
-    margin-right: 30px;
-    margin-top: 10px;
+    width: 400px;
 }
 
-button {
-    padding: 10px;
+#submit {
+    padding: 5px;
     color: white;
     background-color: green;
     border: none;
     border-radius: 2px;
-    font-size: 15px;
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
-    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    margin-left: 25%;
+    
 }
-button:hover {
+#submit:hover {
     background-color: white;
     color: green;
     cursor: pointer;
+}
+select,textarea,input {
+    margin-left: 10px;
 }

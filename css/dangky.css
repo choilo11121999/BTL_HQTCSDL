@@ -33,8 +33,8 @@ body {
 .khungdk {
     background-color: darkgray;
     padding: 10px;
-    height: 500px;
-    width: 600px;
+    height: 440px;
+    width: 580px;
     margin-left: 374px;
     margin-top: 30px;
     position: relative;
@@ -64,18 +64,18 @@ body {
     font-size: 13px;
 }
 #btdangky {
-    margin-top: -35px;
+    margin-top: 20px;
     text-align: center;
 }
-#btdangky button {
+#btdangky input {
     font-size: 20px;
-    padding: 10px;
+    padding: 5px;
     background-color: forestgreen;
     border: none;
     color: white;
     border-radius: 5px;
 }
-#btdangky button:hover {
+#btdangky input:hover {
     background-color: green;
     cursor: pointer;
 }
