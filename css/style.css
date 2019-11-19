@@ -6,6 +6,7 @@
 body {
 	font-family: sans-serif;
     color: #333;
+    overflow-x: hidden;
 }
 
 #header {
@@ -69,7 +70,9 @@ body {
     color: green;
 }
 /*==Banner==*/
-
+.banner{
+    height: 420px;
+}
 #timkiem {
     position: absolute;
     margin-left: 15%;
@@ -114,6 +117,7 @@ body {
     position: relative;
     width: 100%;
     height: 100%;
+    padding-top: 20px;
 }
 
 /*==Nội dung==*/
@@ -130,162 +134,39 @@ body {
 
 .khungviecmoinhat{
     position: relative;
-    height: 900px;
+    height: 1000px;
     background-color: white;
 }
-.menuviecmoinhat ul li{
-    display: inline-block;
-    padding-top: 10px;
-    padding-left: 70px;
-    color: green;
-}
-.menuviecmoinhat ul li:first-child{
-    width: 300px;
-}
+
 .viecmoinhat h2 {
     font-size: 40px;
     margin: 10px 0px;
     color: black;
     text-align: center;
 }
-.ndviecmoinhat li {
-    display: inline-block;
-    padding-top: 10px;
-    padding-left: 75px;
-    font-size: 15px;
+.table, td{
+    border-collapse:collapse;
+    border-bottom:1px solid #ccc;
 }
-.ndviecmoinhat li:first-child {
-    width: 300px;
-}
-.ndviecmoinhat a {
-    color: #333;
-    text-decoration: none;
-    font-size: 17px;
-}
-.ndviecmoinhat a:hover {
+.table th {
     color: green;
-    text-decoration: underline;
-}
-/* ==Việc làm theo ngành nghề== */
-
-.viectheonganh h2 {
-    font-size: 40px;
-    margin-top: 40px;
-    margin-bottom: 10px;
-    text-align: center;
-    color: black;
-}
-
-.ndvieclamnganh {
-    height: 380px;
-    background-color: white;
-    color: black;
-}
-.ndvieclamnganh ul {
-    display: inline-block;
-}
-#ul1{
-    margin-left: 100px;
-}
-#ul2{
-    margin-left:  200px;
-}
-.ndvieclamnganh ul li {
-    padding-top: 15px;
-    font-size: 17px;
-}
-.ndvieclamnganh ul li a {
-    text-decoration: none;
-    color: #333;
     font-weight: bold;
-}
-.ndvieclamnganh ul li a:hover {
-    color: green;
-    text-decoration: underline;
-}
-
-/* ==Tuyển gấp== */
-
-.khungtuyengap{
-    position: relative;
-    height: 900px;
-    background-color: white;
-}
-.menutuyengap ul li{
-    display: inline-block;
-    padding-top: 10px;
-    padding-left: 70px;
-    color: green;
-}
-.menutuyengap ul li:first-child{
-    width: 300px;
-}
-.tuyengap h2 {
-    font-size: 40px;
-    margin-top: 40px;
-    margin-bottom: 10px;
-    text-align: center;
-    color: black;
-}
-.ndtuyengap li {
-    display: inline-block;
-    padding-top: 10px;
-    padding-left: 75px;
-    font-size: 15px;
-}
-.ndtuyengap li:first-child {
-    width: 300px;
-}
-.ndtuyengap a {
-    color: #333;
-    text-decoration: none;
     font-size: 17px;
+    width: 150px;
+    text-align: left;
 }
-.ndtuyengap a:hover {
-    color: green;
-    text-decoration: underline;
+.col1 {
+    width: 500px;
+    padding: 15px;
 }
-
-/*==Việc làm theo tỉnh thành==*/
-
-.viectheotinh h2 {
-    font-size: 40px;
-    margin-top: 40px;
-    margin-bottom: 10px;
-    text-align: center;
-    color: black;
-}
-
-.ndviectheotinh {
-    height: 450px;
-    background-color: white;
-    color: black;
-}
-.ndviectheotinh ul {
-    display: inline-block;
-    padding: 70px;
-    margin-left: 50px;
-    margin-top: -50px;
-}
-/* #mienbac {
+.table {
     margin-left: 50px;
 }
-#mientrung {
-    margin-left:  200px;
-}
-#miennam {
-    margin-left: 00px;
-} */
-.ndviectheotinh ul li {
-    padding-top: 15px;
-    font-size: 17px;
-}
-.ndviectheotinh ul li a {
+.table a {
+    color: black;
     text-decoration: none;
-    color: #333;
-    font-weight: bold;
 }
-.ndviectheotinh ul li a:hover {
+.table a:hover{
     color: green;
     text-decoration: underline;
 }
@@ -293,10 +174,9 @@ body {
 /*==footer==*/
 
 .footer {
-    width: 70%;
-    height: 150px;
+    width: 100%;
     background-color: #D3D3D3;
-    margin-left: 15%;
+    text-align: center;
 }
 .footer h2 {
     background-color: green;
@@ -306,7 +186,7 @@ body {
 }
 .footer li {
     display: inline-block;
-    padding: 20px;
+    padding: 30px;
     margin-left: 30px;
 }
 .footer h4 {

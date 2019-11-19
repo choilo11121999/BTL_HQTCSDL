@@ -4,22 +4,43 @@
 }
 
 body {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: sans-serif;
     color: #333;
+    overflow-x: hidden;
 }
+
 #header {
     background-color: white;
     padding: 10px;
 }
 
+.kv-ntd {
+    float: left;
+    margin-top: 7px;
+    font-size: 20px;
+}
+.kv-ntd a{
+    padding: 5px;
+    color: #333;
+    text-decoration: none;
+}
+.kv-ntd select {
+    font-size: 17px;
+}
+.kv-ntd a:hover{
+    color: green;
+}
+.kv-ntd select:hover{
+    border: 2px solid green;
+}
+
 .logo-center {
     margin-left: 40%;
     font-size: 30px;
-    /* margin-top: -30px; */
 }
 .dn-dk {
     float: right;
-    margin-top: -35px;
+    margin-top: -25px;
 }
 #dn{
     font-size: 20px;
@@ -48,27 +69,32 @@ body {
 .dn-dk #dx:hover {
     color: green;
 }
-
+/*==Banner==*/
+.banner{
+    height: 420px;
+}
 #timkiem {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    margin-top: 20px;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: -320px;
+    width: 70%;
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
  #timkiem select {
-    width: 150px;
-    height: 30px;
+    width: 20%;
+    height: 20%;
     cursor:  pointer;
+    margin-top: 70px;
 }
 #txtsearch {
-    width: 250px;
-    height: 30px;
+    width: 35%;
+    height: 20%;
     margin-left: 55px;
 }
 #btsearch {
-    width: 90px;
-    height: 30px;
+    width: 100px;
+    height: 20%;
     background-color: #33CC00;
     color: white;
     font-size: 15px;
@@ -76,6 +102,7 @@ body {
     cursor: pointer;
 }
 #txtsearch, #timkiem select, #btsearch {
+    border: none;
     border-radius: 2px;
 }
 #txtsearch:hover, #timkiem select:hover {
@@ -84,46 +111,85 @@ body {
 #btsearch:hover {
     background-color: green;
 }
-
-
-.khungtimkiem{
+/*==Noi dung==*/
+.khungnoidung {
+    background-color: #D3D3D3;
     position: relative;
+    width: 100%;
     height: 100%;
-    background-color: gainsboro ;
-    width: 70%;
+    padding-top: 20px;
+}
+
+/*==Nội dung==*/
+
+.noidung {
     margin-left: 15%;
-    margin-top: 30px;
-    padding: 10px;
+    width: 70%;
+    height: 100%;
+    position: relative;
+    background-color: #D3D3D3;
 }
-.menutimkiem ul li{
-    display: inline-block;
-    padding-top: 10px;
-    padding-left: 70px;
+
+/* ==Việc làm mới nhất== */
+
+.khungviecmoinhat{
+    position: relative;
+    height: 1000px;
+    background-color: white;
+}
+
+.viecmoinhat h2 {
+    font-size: 40px;
+    margin: 10px 0px;
+    color: black;
+    text-align: center;
+}
+.table, td{
+    border-collapse:collapse;
+    border-bottom:1px solid #ccc;
+}
+.table th {
     color: green;
-    font-size: 15px;
     font-weight: bold;
-}
-.menutimkiem ul li:first-child{
-    width: 300px;
-}
-.ndtimkiem li {
-    display: inline-block;
-    padding-top: 10px;
-    padding-left: 70px;
-    font-size: 15px;
-}
-.ndtimkiem li:first-child {
-    width: 300px;
-}
-.ndtimkiem a {
-    color: #333;
-    text-decoration: none;
     font-size: 17px;
+    width: 150px;
+    text-align: left;
 }
-.ndtimkiem a:hover {
+.col1 {
+    width: 500px;
+    padding: 15px;
+}
+.table {
+    margin-left: 50px;
+}
+.table a {
+    color: black;
+    text-decoration: none;
+}
+.table a:hover{
     color: green;
     text-decoration: underline;
 }
-#quantam{
-    cursor: pointer;
+
+/*==footer==*/
+
+.footer {
+    width: 100%;
+    background-color: #D3D3D3;
+    text-align: center;
+}
+.footer h2 {
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+.footer li {
+    display: inline-block;
+    padding: 30px;
+    margin-left: 30px;
+}
+.footer h4 {
+    text-align: center;
+    margin-bottom: 10px;
 }

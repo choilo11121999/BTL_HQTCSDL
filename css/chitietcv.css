@@ -4,11 +4,10 @@
 }
 
 body {
-	font-family: sans-serif;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #333;
-    overflow-x: hidden;
+    background-color: gainsboro;
 }
-
 #header {
     background-color: white;
     padding: 10px;
@@ -40,7 +39,7 @@ body {
 }
 .dn-dk {
     float: right;
-    margin-top: -25px;
+    margin-top: -30px;
 }
 #dn{
     font-size: 20px;
@@ -70,9 +69,7 @@ body {
     color: green;
 }
 /*==Banner==*/
-.banner{
-    height: 420px;
-}
+
 #timkiem {
     position: absolute;
     margin-left: 15%;
@@ -111,65 +108,35 @@ body {
 #btsearch:hover {
     background-color: green;
 }
-/*==Noi dung==*/
-.khungnoidung {
-    background-color: #D3D3D3;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    padding-top: 20px;
-}
 
-/*==Nội dung==*/
-
-.noidung {
-    margin-left: 15%;
+.main {
     width: 70%;
     height: 100%;
-    position: relative;
-    background-color: #D3D3D3;
+    margin-left: 15%;
+    margin-top: 20px;
 }
-
-/* ==Việc làm mới nhất== */
-
-.khungviecmoinhat{
-    position: relative;
-    height: 1000px;
+.tieude, .noidungchinh {
     background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+}
+.noidungchinh div {
+    margin-top: 20px;
+}
+.nd1 {
+    margin-left: 20px;
+}
+.nd1 td {
+    font-weight: bold;
+    width: 500px;
+}
+.nd1 td span {
+    font-weight: normal;
+}
+.nd2 {
+    margin-left: 20px;
 }
 
-.viecmoinhat h2 {
-    font-size: 40px;
-    margin: 10px 0px;
-    color: black;
-    text-align: center;
-}
-.table, td{
-    border-collapse:collapse;
-    border-bottom:1px solid #ccc;
-}
-.table th {
-    color: green;
-    font-weight: bold;
-    font-size: 17px;
-    width: 150px;
-    text-align: left;
-}
-.col1 {
-    width: 500px;
-    padding: 15px;
-}
-.table {
-    margin-left: 50px;
-}
-.table a {
-    color: black;
-    text-decoration: none;
-}
-.table a:hover{
-    color: green;
-    text-decoration: underline;
-}
 
 /*==footer==*/
 

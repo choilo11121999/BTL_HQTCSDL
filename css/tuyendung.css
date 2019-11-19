@@ -12,16 +12,39 @@ body {
     padding: 10px;
 }
 
+.kv-ntd {
+    float: left;
+    margin-top: 7px;
+    font-size: 20px;
+}
+.kv-ntd a{
+    padding: 5px;
+    color: #333;
+    text-decoration: none;
+}
+.kv-ntd select {
+    font-size: 17px;
+    width: 100px;
+}
+.kv-ntd a:hover{
+    color: green;
+}
+.kv-ntd select:hover{
+    border: 2px solid green;
+}
+
 .logo-center {
     margin-left: 40%;
     font-size: 30px;
-    margin-top: -30px;
 }
 .dn-dk {
     float: right;
-    margin-top: -35px;
+    margin-top: -30px;
 }
-#dn{
+#baidang {
+    margin-right: 50px;
+}
+#dn, #baidang{
     font-size: 20px;
     text-decoration: none;
     padding: 5px;
@@ -37,7 +60,7 @@ body {
     margin-left: 15px;
 
 }
-.dn-dk #dn:hover {
+.dn-dk #dn:hover, #baidang:hover {
     color: green;
     background-color: white;
     border: 1px solid green;
@@ -69,6 +92,12 @@ body {
     position: relative;
     margin-left: 20%;
 }
+.main .row{
+    display: flex;
+}
+.main .row label {
+    width: 200px;
+}
 .main div {
     padding: 10px;
 }
@@ -97,7 +126,8 @@ input {
     font-size: 20px;
     font-weight: bold;
     height: 40px;
-    margin-left: 25%;
+    margin-left: 27%;
+    margin-top: 20px;
     
 }
 #submit:hover {
@@ -107,4 +137,27 @@ input {
 }
 select,textarea,input {
     margin-left: 10px;
+}
+
+/*==footer==*/
+
+.footer {
+    width: 100%;
+    background-color: #D3D3D3;
+    text-align: center;
+}
+.footer h2 {
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+.footer li {
+    display: inline-block;
+    padding: 30px;
+    margin-left: 30px;
+}
+.footer h4 {
+    text-align: center;
+    margin-bottom: 10px;
 }

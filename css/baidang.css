@@ -12,14 +12,39 @@ body {
     padding: 10px;
 }
 
+.kv-ntd {
+    float: left;
+    margin-top: 7px;
+    font-size: 20px;
+}
+.kv-ntd a{
+    padding: 5px;
+    color: #333;
+    text-decoration: none;
+}
+.kv-ntd select {
+    font-size: 17px;
+}
+.kv-ntd a:hover{
+    color: green;
+}
+.kv-ntd select:hover{
+    border: 2px solid green;
+}
+
 .logo-center {
     margin-left: 40%;
     font-size: 30px;
-    margin-top: -30px;
 }
 .dn-dk {
     float: right;
-    margin-top: -35px;
+    margin-top: -30px;
+}
+#baidang {
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+    margin-right: 50px;
 }
 #dn{
     font-size: 20px;
@@ -48,62 +73,104 @@ body {
 .dn-dk #dx:hover {
     color: green;
 }
-#dangtuyen {
-    color: white;
-    background-color: green;
-    padding: 5px;
-    text-decoration: none;
-    font-size: 20px;
-}
-.dangtuyen {
-    margin-top: 10px;
+/*==Banner==*/
 
-}
-
-.khungviecquantam{
-    position: relative;
-    height: 100%;
-    background-color: gainsboro ;
-    width: 70%;
+#timkiem {
+    position: absolute;
     margin-left: 15%;
-    margin-top: 30px;
-    padding: 10px;
+    margin-top: -320px;
+    width: 70%;
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
-.menuviecquantam ul li{
-    display: inline-block;
-    padding-top: 10px;
-    padding-left: 70px;
-    color: green;
+ #timkiem select {
+    width: 20%;
+    height: 20%;
+    cursor:  pointer;
+    margin-top: 70px;
+}
+#txtsearch {
+    width: 35%;
+    height: 20%;
+    margin-left: 55px;
+}
+#btsearch {
+    width: 100px;
+    height: 20%;
+    background-color: #33CC00;
+    color: white;
     font-size: 15px;
     font-weight: bold;
+    cursor: pointer;
 }
-.menuviecquantam ul li:first-child{
-    width: 300px;
+#txtsearch, #timkiem select, #btsearch {
+    border: none;
+    border-radius: 2px;
 }
-.ndviecquantam li {
-    display: inline-block;
-    padding-top: 10px;
-    padding-left: 70px;
-    font-size: 15px;
+#txtsearch:hover, #timkiem select:hover {
+    border: solid 2px green;
 }
-.ndviecquantam li:first-child {
-    width: 300px;
+#btsearch:hover {
+    background-color: green;
 }
-.ndviecquantam a {
-    color: #333;
-    text-decoration: none;
+
+.main {
+    background-color: gainsboro;
+}
+.khungviecquantam{
+    position: relative;
+    height: 1000px;
+    background-color: white;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.table, td{
+    border-collapse:collapse;
+    border-bottom:1px solid #ccc;
+}
+.table th {
+    color: green;
+    font-weight: bold;
     font-size: 17px;
+    width: 150px;
+    text-align: left;
 }
-.ndviecquantam a:hover {
+.col1 {
+    width: 500px;
+    padding: 15px;
+}
+.table {
+    margin-left: 50px;
+}
+.table a {
+    color: black;
+    text-decoration: none;
+}
+.table a:hover{
     color: green;
     text-decoration: underline;
 }
-#xoabai {
-    padding: 5px;
-    cursor: pointer;
-    background-color: rgba(173, 20, 20, 0.733);
-    border: none;
+
+/*==footer==*/
+
+.footer {
+    width: 100%;
+    background-color: #D3D3D3;
+    text-align: center;
 }
-#xoabai:hover {
-    background-color: red;
+.footer h2 {
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+.footer li {
+    display: inline-block;
+    padding: 30px;
+    margin-left: 30px;
+}
+.footer h4 {
+    text-align: center;
+    margin-bottom: 10px;
 }
