@@ -55,21 +55,13 @@ body {
     color: #333;
     text-decoration: none;
 }
-/* .dn-dk #dx {
-    margin-left: 15px;
 
-} */
 .dn-dk #dx:hover {
     color: green;
     background-color: white;
     border: 1px solid green;
 }
-/* .dn-dk #dk:hover {
-    text-decoration: underline;
-}
-.dn-dk #dx:hover {
-    color: green;
-} */
+
 #nguoidung{
     font-weight: bold;
     font-size: 18px;
@@ -79,10 +71,6 @@ body {
     display: table;
     clear: both;
 }
-/* .banner1{
-    background-image: url("../img/banner_01_new.png");
-    height: 420px;
-} */
 
 /*==Banner==*/
 .banner{
@@ -95,40 +83,30 @@ body {
     width: 70%;
     height: 30%;
     background-color: rgba(0, 0, 0, 0.5);
+
 }
- #timkiem select {
-    width: 20%;
-    height: 20%;
-    cursor:  pointer;
-    margin-top: 70px;
-}
-#txtsearch {
-    width: 35%;
-    height: 20%;
-    margin-left: 55px;
-}
+
 #btsearch {
-    width: 100px;
+    width: 150px;
     height: 20%;
+    position: absolute;
     background-color: #33CC00;
     color: white;
-    font-size: 15px;
+    font-size: 30px;
     font-weight: bold;
     cursor: pointer;
-    text-decoration: none;
-}
-#txtsearch, #timkiem select, #btsearch {
     border: none;
     border-radius: 2px;
-}
-#txtsearch:hover, #timkiem select:hover {
-    border: solid 2px green;
+    margin-left: 40%;
+    margin-top: 70px;
+    text-align: center;
+    padding: 10px;
 }
 #btsearch:hover {
     background-color: green;
 }
 /*==Noi dung==*/
-.khungnoidung {
+.main {
     background-color: #D3D3D3;
     position: relative;
     width: 100%;
@@ -148,10 +126,12 @@ body {
 
 /* ==Việc làm mới nhất== */
 
-.khungviecmoinhat{
+.khungviecquantam{
     position: relative;
-    height: 1000px;
+    height: 850px;
     background-color: white;
+    width: 70%;
+    margin-left: 15%;
 }
 
 .viecmoinhat h2 {

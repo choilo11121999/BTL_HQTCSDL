@@ -4,9 +4,11 @@
 }
 
 body {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: sans-serif;
     color: #333;
+    overflow-x: hidden;
 }
+
 #header {
     background-color: white;
     padding: 10px;
@@ -40,35 +42,40 @@ body {
     float: right;
     margin-top: -30px;
 }
-#dn{
+#dx{
     font-size: 20px;
     text-decoration: none;
     padding: 5px;
     background-color: green;
     color: white;
+    
 }
-.dn-dk a{
+.dn-dk p{
     padding: 5px;
     color: #333;
     text-decoration: none;
 }
-.dn-dk #dx {
-    margin-left: 15px;
 
-}
-.dn-dk #dn:hover {
+.dn-dk #dx:hover {
     color: green;
     background-color: white;
     border: 1px solid green;
 }
-.dn-dk #dk:hover {
-    text-decoration: underline;
-}
-.dn-dk #dx:hover {
-    color: green;
-}
-/*==Banner==*/
 
+#nguoidung{
+    font-weight: bold;
+    font-size: 18px;
+}
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+/*==Banner==*/
+.banner{
+    height: 420px;
+}
 #timkiem {
     position: absolute;
     margin-left: 15%;
@@ -76,75 +83,57 @@ body {
     width: 70%;
     height: 30%;
     background-color: rgba(0, 0, 0, 0.5);
+
 }
- #timkiem select {
-    width: 20%;
-    height: 20%;
-    cursor:  pointer;
-    margin-top: 70px;
-}
-#txtsearch {
-    width: 35%;
-    height: 20%;
-    margin-left: 55px;
-}
+
 #btsearch {
-    width: 100px;
+    width: 150px;
     height: 20%;
+    position: absolute;
     background-color: #33CC00;
     color: white;
-    font-size: 15px;
+    font-size: 30px;
     font-weight: bold;
     cursor: pointer;
-}
-#txtsearch, #timkiem select, #btsearch {
     border: none;
     border-radius: 2px;
-}
-#txtsearch:hover, #timkiem select:hover {
-    border: solid 2px green;
+    margin-left: 40%;
+    margin-top: 70px;
+    text-align: center;
+    padding: 10px;
 }
 #btsearch:hover {
     background-color: green;
 }
 
 .main {
-    background-color: gainsboro;
-}
-.khungviecquantam{
-    position: relative;
-    height: 1000px;
-    background-color: white;
     width: 70%;
+    height: 100%;
     margin-left: 15%;
+    margin-top: 20px;
+}
+.tieude, .noidungchinh {
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+}
+.noidungchinh div {
+    margin-top: 20px;
+}
+.nd1 {
+    margin-left: 20px;
+}
+.nd1 td {
+    font-weight: bold;
+    width: 500px;
+}
+.nd1 td span {
+    font-weight: normal;
+}
+.nd2 {
+    margin-left: 20px;
 }
 
-.table, td{
-    border-collapse:collapse;
-    border-bottom:1px solid #ccc;
-}
-.table th {
-    color: green;
-    font-weight: bold;
-    font-size: 17px;
-    width: 150px;
-    text-align: left;
-}
-.col1 {
-    width: 500px;
-    padding: 15px;
-}
-.table {
-    margin-left: 50px;
-}
-.table a {
-    color: black;
-    text-decoration: none;
-}
-.table a:hover{
-    color: green;
-    text-decoration: underline;
-}
 
 /*==footer==*/
 
